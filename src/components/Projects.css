@@ -72,6 +72,10 @@ strong {
   margin-bottom: 10px;
 }
 
+.likeIcon {
+  cursor: pointer;
+}
+
 .likeIcon.active {
   color: #90C040;
   

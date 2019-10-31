@@ -83,7 +83,9 @@ function Projects(props) {
         {
          projects.length && getTop().map((project) => (
           <div className='projectItem' key={project._id}>
-            <img src={project.image} alt=""/>
+            <a target='_blank' href={project.url}>
+              <img src={project.image} alt=""/>
+            </a>
               <h3 className='projectTitle'>{project.title}</h3>
               <div>
             <div className='likesContainer'>
